@@ -137,17 +137,6 @@ InvalidFieldError: {'wrong_field'}
 
 ---
 
-## Comparison
-
-| Feature             | drf-serializer-shaper | drf-flex-fields |
-| ------------------- | --------------------- | --------------- |
-| Code-level control  | true                 | ❌               |
-| Nested exclude      | true                   | ⚠️          |
-| Strict validation   | true                   | ❌          |
-| Query param support |false(planned)          | true        |
-
----
-
 ## Roadmap
 
 * [ ] Dict-based nested API (`{"category": ["id", "name"]}`)
@@ -167,7 +156,7 @@ PRs are welcome! Please:
 
 ---
 
-## 📄 License
+## License
 
 MIT License
 
